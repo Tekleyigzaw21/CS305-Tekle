@@ -43,7 +43,7 @@ function findTitles() {
  * Event handler for Add book button.  Creates and adds book to the library
  */
 function addBook() {
-    let newbook = { title: "abcd", author: "sders", libraryID: 111 }
+    let newbook = { title: "Electronics Physics", author: "Piter Jaccob", libraryID: 7158 }
     const title = document.getElementById("title"); //retrieves the book title from the title textbox
     //finish the implementation -- get the author, create a book object, and add to the library array
     for (let i = 0; i < library.length; i++) {
@@ -61,7 +61,7 @@ function addBook() {
 function findAuthors() {
     let authors = [];
 
-    authors = ["Bill Gates", "Steve Jobs", "Suzanne Collins"];  //FIX THIS!!
+    authors = ["Bill Gates", "Steve Jobs", "Suzanne Collins", "Piter Jaccob"];  //FIX THIS!!
     return authors;
 }
 
@@ -79,7 +79,7 @@ function showAuthors() {
 
 function findIDs() {
     let id = []
-    id = [1254, 3245, 4264]
+    id = [1254, 3245, 4264, 7158]
     return id;
 
 }
