@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "CS305Ass2",
+			"path": ".."
+		},
+		{
+			"name": "w1d4Arrays",
+			"path": "..\\..\\w1d4Arrays"
+		},
+		{
+			"name": "JSPrac",
+			"path": "..\\..\\JSPrac"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

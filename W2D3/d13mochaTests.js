@@ -94,9 +94,9 @@ describe("convertFahrenheit", function () {
     });
     it("convertFahrenheit", function () {
         assert.equal(convertFahrenheit(212), 100)
-        it("convertFahrenheit", function () {
-            assert.equal(convertFahrenheit(100), 37.7778)
-        });
+    });
+    it("convertFahrenheit", function () {
+        assert.equal(convertFahrenheit(100), 37.77777777777778)
     });
 });
 

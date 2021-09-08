@@ -81,3 +81,32 @@ function convertFahrenheit(f) {
 function calcDistance(x1, y1, x2, y2) {
     return (Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
 }
+
+
+for (let i = 1; i <= 12; i++) {
+    let row = " ";
+    for (let j = 1; j <= 12; j++) {
+        row += i * j + "\t";
+    }
+    console.log(row);
+}
+
+// function sum(num1 = 8, num2 = 10) {
+//     return num1 + num2;
+// }
+// console.log(sum(num1, num2));
+
+let matrix = [
+    [1, 2, 3, 10],
+    [4, 5, 6, 20],
+    [7, 8, 9, 30],
+    [12, 14, 16, 40]];
+console.log(matrix.length);
+for (let i = matrix.length - 1; i > 0; i--) {
+    for (let j = 0; j < parseInt(matrix[i].length) / (i); j++) {
+        console.log(matrix[i][j] + ("\t"));
+    }
+}
+const age = 23;
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
