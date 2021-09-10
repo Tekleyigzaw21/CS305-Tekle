@@ -14,12 +14,15 @@ function Accumulator(currentValue, increament) {
     this.accumulate = function () {
         this.currentValue += increament;
     }
+    //return currentValue;
     this.report = function () {
         this.currentValue;
     }
+    return this.report;
 }
-
-
+let acc = new Accumulator(100, 5);
+console.log(acc.accumulate());
+console.log(acc.report());
 /**
  * @returns{​​​​​​​​Calculator}​​​​​​​​ this is a constructor function
  */
